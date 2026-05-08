@@ -4,13 +4,11 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>HomeBase — Family logistics, made simple</title>
-<meta name="description" content="One calm place to track school, sport, dinners, and play dates. Built for Australian families."/>
+<meta name="description" content="One calm place to track school, sport, dinners, and play dates — now with AI-powered email forwarding and voice commands. Built for Australian families."/>
 <meta name="theme-color" content="#1C3A6B"/>
 <meta property="og:title" content="HomeBase — Family logistics, made simple"/>
-<meta property="og:description" content="One calm place to track school, sport, dinners, and play dates."/>
+<meta property="og:description" content="One calm place to track school, sport, dinners, and play dates — now with AI-powered email forwarding and voice commands."/>
 <meta property="og:type" content="website"/>
-<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAACw0lEQVR42u2WTUhUcRDAZ+b/3E9dd9WlyEwIQhNa9KAukrEIrWgFChZFJRUZ4V4UokN5qAiqQ14ihKgg6hgdizpFXcSgQsik1DTUFT9TKond/0yHR0uRb211hQ7O6fF/ML/5nsHNVRFYSyFYY1kHLCtGCrYQIiCLiEj6AYpIMwOISWKWdIbIUKSZywNbb185tdHvZRZFlDaAoSiuORQsuXvtdO2uwOM7ZwPFWzSzYag0AEzt++sq719v9Xpc8bj253oedEZ2FBXE49pQy9unPAUVy2ivD3Z2HGUWEVCKmMXltDWEy0cnZvsGxgxDJc+HJYAINUtHpPF8pEEzEyIRAgAiMovdZtSHSgdGJvoHxxVRkrpaGqCImOXMyT2R5nBcsyJExMRfEWARZtlbU9Y/GP0wHE3CWDqImjnXmxlprmUWwj+0m84pIkMRIl5qb3LYM9jaA8ssZWQYWmsiRATTOhEREc08MjY9O/91NDoTi+k8X5bX45YVAEQkYbj5gYiIODf/beeBCzfuPa09dnVkfFopswFX1Mm/DIeWc7c+fprwetxdl094Pe7WI7tDwRJPptOX7WYRBFzVqBCQ1++Gp2YWAGDo82SwbNvDJz0A8Oxlb2O4PCfbLSCrnUVup32GEAER0VD0qKvd7bIf2leVvyFHayZcqQfMopmFBRHMOJgvhfl5AJDny2KW74s/VpgDEXA6bGYdzC8smlrsNuP3MWe2XiymEdGqkNBq6Sui6opil8PmdNjqQ6WxuCbC7jcD45NzhCgCAoKA0am5t30jSQCWHmjm5919AHCxrSlcHUgk43D7Tat6S20WKSJCbDlY03a8LvFYmO/P82W+6HlvGAoRiBAQku+3pT1ARBbJdDtCldtf9Q4BgFkpIlK0dZM/1xOd/PKPew2THF5WkU0S8ZQ7+a9BByKQzqWf4gmxftn9l4Cf4RdJ+CxhT2QAAAAASUVORK5CYII="/>
-<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAATqUlEQVR42u2deVwVVd/Az5yZuZcLF7jsIMgOggIqihq4pYZprrkUmktq7umjqW+5ZWZpi6bZa5qZppnvq1aP5ZKZqeXGY48rqOGCiLuAKFe4987MOc8fI/MMl0Uw0Jr7+378487ccZhz7nd+53fOLIcJSh6HAKAiMFQBAHIAIAcAcgAgBwByACAHAHIAIAcAcgAgBwCAHADIAYAcAMgBgBwAyAGAHADIAYAcAMgBACAHAHIAIAcAcgAgBwByACAHAHIAIAcAcgAAyAGAHADIAYAcwOOAgyqQYRhG/kAphdqAyKGqBczQUjBmoEIgcjyAxVgixN3V2eTmXGIRbuXflddAzXBgBkXU29N17Ydj4hsE37l7v8/Yj85duuGk5y1WAZoVh25NGAa5uhhWvvtKfINgi1UwuTl/vXh8TEQ9i1VgsaO3uaxb/RYOnGcgjmX//+MJiXFhoijpdJxEqJvR0DYppllc2C+HMkVRUhJVaFYcpWNCKSWEMgyz9fOpsZGBokQ4jkUIcSwmhIYG+YQG+USHBXQeukBOUQlxxC4MdsiAQfU6PijAa9uqqbGRgaIocSxWb0AIFQQpNjJw26ppRhcnQqhjNjHY0WIGz3EYM/OnvXho81vxDYIppXLMsBOI51lRlOIb1P9q0TgPdxeGQQ7oB3YoM1gWW23Ch9Nf6telpSBISDX2VUGLy7GiKDWLC1s+b7hexzOYcbQhEAeSg1IqitLSN4f269JSFCWeZx+ekXGsKErJidHrFo2VJEIpcig/sIPEDPlHXTJ7SK/U5oIglW9KqvYjKSHi+8+myGls1fEGurJ/MzM4DiOKFs54qe+zLWyCqONr1kfDGIuiVM/Po01SzP7fz1ptoiQRR/BD43LwPMuxrE0Q353yQlr3ZEGQamqG4gelNNDfc8QLHbxMxt0HM3Q8R7R+iU7LcrAYixKRJPLe/6QN7NlalAhf7dakwgiEEBJFqUnDUH8f952/nuQ4VtvjH5odBONYLEpk9IBOTRuFdm3fRJSIejDj0XfLsaIoDeiRgjGeOn+9PJ4GkeNv1pqIIhkzsNOMcb2iQv0FQfozMaN8E2MTxMaxIQG+pl37T2l4/EODcuh1vE0QX+7bbvaEPoIgUUqr02utWa2x2CaITWJDfLzcdh/M4DlWk/mH1uTgedYmiEP7tHt7cj+JEI5jcd2c2SyLBUFq2ijU1cXwy6FMvY7XXv6hKTk4FosiGdKn7bzJ/R/DBRGWxaJEmseHe5pcdu0/pb38VDtycBwrSmR4//ZzJ/WzCSLHsY/hj2LMiBJJbBTmaXLZfSBDvg0A5PjrmSFKQ/q0nTupn9Um6HjusQ1SYcxYbYIcP345mKml+KGRTJthkF7HN44JppRiBj/m4Uu9jrfahKF92k0b1Z0S+niCFshR3bAhCFL3jon9urayCWKt902qZ+cDHSVCsFZG1rXTRxcliVL6pC55sCyWCElsFBYR7CdJRBsXb7UjB4OYJ3gxjMVYFKWUZtEtGkdIhLCsJkIyAirH7ukVFmNKqTLexaAyt/8wDCMRUmyxIYS00WcBOR4SD8rnFmzl8YnFGGvoUj7IUVXYOJqRrcQAjJnm8eG38+9lX7ktX29zdXGKjQx8gokOyPHEsFiF58d8pF6Te+CTbXuPzVq0SV5sEF7v53XTpdLHGkCOvzeVXV6v8NRnGEa+o4dhEKXIxaBHCDk76TmOlR+W9DIZtV1dDiQHIVU9QV9h60AopYQiBlGKii1WeTNKHvzT/J1gnOPEDIwZc7HFahPlSFAaHhClyN3VWX7WTW2PfLe6sujt6Y4QsgmiRMj9EitC6H6xBeTQQswglF65njd4yrLs3NvlN+idmrRo5iAWM+r4wWLcODZEXkMp/eK9UQghXy/3hJhgvY6z2sRGUUEP/AI5/r4IoqjX8e+v+CE797Z8k5g6PHAc+91PRziOnTOxj4uzHpemIE56fuvnU+121bltQue2CWVqkMUgx98Y+cd2czUwDEOpfVoqP+C0afvhUWkdGoTXI4TKscAmiLMWbVIih7NBN2di3yMnL2zans7znCCIYfV9xwzsJBGi1TsFHSghlSRSWW+FSJRjsV2PVBClr78/oF4zZ2LfzHNXNvxwUOnKjhnYiRKq1UfDYJyjNH5I9p0POd4YnHQMQhQhZycdQsjF2cngpJO7sr5ebpCQOiKUUsww0WEBWdnX5TUlFhtCqLjYWmKxyZ9vF9wDORwUJz3//copby35hmWxJBGe5xBCDaMC07onyzeehdX3RQgxGHorDobcprgY9O+/PkC9PikhIikhQr1Gw8+tgBwPaVyE0nEwBjE8z0qESBJhEEMRxQyj1asqIEe14ofdg9csxo7zih94g3Gt9pYJ0dIFF5CjNtsgFmOjsx5pZUgd5KgdRInwHLf7YMa+9DMciyWJgBxAaT0yDKE0pJ63v4+JUMoguPv8rwQpfWHXk6lHzIiiFBnqHxNRjxCKWS3IoZ3eipOex5ixlYjlz1qbIMoPLvA8y7MV3CDMYowJI0mSIEiEEszgmqtJOBabiy251/MxZqgmnojUghyUUBbj85duXL9VGOBrKr+B/AycKBFBkOTXj9ohIAkh5OXhyvMsQo82dMEKgvSPt9fKOYeoiZyDCUoep4FiyDOkxDcIfioxSpIku3dyYMwUl9jcjQZPk7HC2wHllfmFZpsgPpKeiMFM9uVbuw6ckkfWtRGMNSIHKn1neWXfJsQEr104tupbght2nlpkLvlTcVgrMUNrOYf8tpbymaCe583Flo7JcV4mo7nY4qTjKxum2rN+ZlKvmXodJ0rkEQYqKKFaMgNpbPhcIsTu18GYMQuWF7o9NWlYF1GUjM5Olf60lPp5u0eG+J27dINjsSDCNF6aHudgGAYzTFr35A/fGIgQeuhFMkLotlXTGseGiBKBaZqQ5l9SKxGyddVUOd+s+qFF+fZSlsVd2jXJyMq9eqNA2+8YdejIgTEjETJ9bC+rTazm2xnkgSwvk7FF4whRItoYyILIYY+O51iWnfJKt3EvPYPl10BVL8NkMRZEqVFUUFb2jZxreQxy6OChwcjB86wgSqmt48cPSrXaBBbX4BVh8g0cHu4uaz4Y7WLQy1qBHNpJQuVHEFonNXjkV5HK72zp0am5ZoazoFl5cOOnjucWzRjU/7lWokhYFhNaYxjESIQ+kxJXeO/+sdOXNPZ2UceNHJRSgxP/fOckuX3BmJFv7KvRP4wZ+SHH10Y8hxDCjtqt1c7wubrT4e9tqpVbf4st1ryCIodtVjR4gzEh9NqtOwgAOapIPmqrnQI5tJZ5wHkPCSkAcgAgBwByACAHAHIAIAcAcgAAyAGAHADIAYAcAMgBgBwAyAGAHADIAYAcAAByACAHAHIAIAcAcgAgBwByACAHAHIAIAcAcgAAyAGAHADIAYAcAMgBgBwAyAGAHIBmqeptgkP7tHt7cj9lMSv7eseX3im/2aBerd+d+qKymHM1r3X/OZqsLLsKUaCUlliFInNJztW8k2cvb997/MjJCxqXA6gmDMM4O+mcnXR+3u4tGkeMeOHpfelnxs7+4t6fm04QmhVt0q5l7PJ5wyHnACqmTVJM49gQaFYcFCUJYxjGy8M4uHebScO6qjdo0TjixJkckOPhJCVE9E5tnhgXVs/Xw9VoKCmx5t0xnzybs+tAxrY9xyqc9mbFOyO6tm+iLPYfv+TQsXPPpMSPTOvQKCpIkKTMrCsrNuzel35G3sDfxzTyxQ6pbRICfE33i60ZWblf/XP/9r3HKzukpg1De3dOah4fFujv6eZiKLHYrt8uTD9xYeO2Q8dP1+BHpZTmFRQtWrX92baNYyMDlfUe7i5l6ppjExoEJzUObx4XHhHi5+/tbjDoCSHmYsuV6wUZWbnb9x5XymJHgK/pxW7JKc2iw+v7urkaGIbJv2POu3Mv52r+ybM5h46dO3U2V55DqBbL+DjkCPA1LZ41ODkxWr3S1WhwNRrC6vv0fKb566O6T5i7tjoZ/uuje4wblKoO3W2SYj5YufXjNT8mJUSsnP+KMue0zp2Tv121ce+cJZvt9uPr5b5w+sD2rRqWP6TosIBBvVr/sPvotAVfm4stf6bgdtNxDO/ffua43vYbsdjT3ejpbkyICR7QIyX9+PmR0z8vuGtWb9KtQ9PFswbrdbxdrQb4muIbBHfr0BQhNOKNz3b+erJ2y1jnOUegn8f3n02xM8OOoACvjUsntG0RW/Wu+j/XSm2GwtRXuvXr0vKL90ZVOBv58P7t27Uss2d/H9P3K6fY1Zod3TsmbljyqpOer2YxvT1cJwx9Vh02KKV7DmfWtLpaNolcOf8Vu6P9aKa9GQ+lVspYg8gRHRaQe+CTmpZ26Zyh/j4mZfH3UxffXLz5zIWr/t6mCUOffbHbU0rIXTb35ZR+c+4WFVe2q75dWn6788iC5VuKS2zjB6eOHtBJ+WrRzEEIoRVf7/50/S4GMwumpnVum6B8O6BHijpcL5k9ONDPQ1n89V9n3v9s67ns6/4+pn8M69I7NUle36RhyBtjer65ePOjVcin63/Ozr2tXmO1ivvSz+w6cOrEmZz8O+a8O0WCIHqYjImNQme/+nxwPW8lU2ndvMH+3/+QFzu3TVB+P6tNmPzOV78dOVt032Jyc/bxdAuu59WySWSrJlFEKjNRRK2UsW6blZRm0UkJEeowO+i1Zeb7FoRQ7vX8qfPXB/p5tEmKkb91d3V+uW+7xat3VLa3y9fyJs9bJ7esH3y2dUT/p9XTMe1LPzPvf7+TP7+z7Du1HAkxwcrnVk2j1GHs1B+Xh05bLggSQuhi7q2Jc9eGBHonNgorHd9rs3TtzppO1iRKZPaijev+ud9u/Zpv9q35Zp/dytv59+Tm4PP5I5WVajnUp9aN23e3/XJMroG8gqK8gqIz56/atSa1WMa6laNTSrx68dud/5LNUFj73W+KHAihTilxVcixaXu6knPZBPHG7cKgAK//frsjXfl86UqeKBF5nja7xDC1TZlDWr/lgFxrSluw67dTSsXxPPt0y4bqPVcryWfxpGFdLTZx0/bDdl+5Gg29U5PaJsVEhvr5eroZDHrlINXUU530hffuK59DAr1/Xjf9wL+zLly+eTH31vlLN67erGBOqtoqY93KERnip17MPHfFboPMrDJrIspub8fF3FvqxWKLTb149sI1dfktVpvR2elB+VUBJirEX/2/FkxLWzAtrYo/GhNR7xEK7uPltmjGSwyDNm47rFZ/yewhbkbDQ/+7s5Ne+bzn0OkZY3spc09FhvpHhvqrA8/e9NOrN/966o/LtV7GGshRzWsratxcy1SEudhqt4Fdqmx0dsKYIaTieZby7xTZRW/1YlHZserKpnS0O6SH4lFRklu+QozOThEhfpOGdemYHKds8MaYnj/sPlpisSGEwuv7rnhnhI6vVoWrZyHLyr7+4efbpox4rsK5yXy83Pp1bdXn2Zavv79hww8Ha7eMddtbuVdUUva319ttoJzciiuVmYEQquIrhBBF9BEOqTptRHU2MxdbTpzJGT1zlU0Q1V2YuOigB6dQ7zZqMy5cvjnotWXxXabVTxlfP2V8//FLqtj5x2t+7DVq0aYd6bfy71b8K2LmzYl9lMqsrTLWbbNyPuemujfVKCro251H1Bs0Kq27B1WWc7Ouu9Z2hzRm1qqtvxyrxf0ziCk7GvEge2gYFaheP3PhRiXlfGh7ihA6mpl9NDMbIeTt6RoW5Bsa6B0bGdinSwtP9wcnvYtB36RhiLzP2ipj3UaOnw+cUi/2Tk0yupQJFYN7t1Ev7j6YWddy7Npf5pCG9mlXKzPQuhj0CTHBy+cN5/kyeyu8V1w+70EIWW3/DTA8z77ct131B9aOnLywaUf63KXfzl+2pcwxlAbm2ipj3UaOA//OOnLyYlJCuNJArls4dvZHm89evOrn5T7x5S7qrso9c8nqzXvrWo6DR7PSj59v2SRSGXTasHj8p+t/zsi6UnDX7G40eJqMPp5uCTHBzeLCggO9Ow+Z/8gDP1abcDQjuzR1uKHu1c96tfe0BV/nXM2LCvWf/erz0WEBlff44iYN63ro6Ln04+ev3izILzQX3DXzLBsdHpDWI1m9Ze61/NotY50Pn0+Y++WWFZN9vdzlxebx4du/mFbh2MD4N1cr51ndHtJbX367fLIyRtSqaVSrplHVGf+uKZ+s/UnJuNdv2T+gR7KSVDZtGLpr7XRly//bekgZD7QfXmdxQkxwQkzwqAEdq/hbx05fOn3+au2Wsc6Hz69cz+85cmH68fNVbHP15p20iUv3HD6NHgvXbt3pOfLD3Qcz6u5PCIK0ZPWOJWt+VI1E5c76aFP5nJpSunj1DnWP9xHIPHdl9IxVtV7Gx3Hh7cqNgr7jFrdqGtWjU7NmcWH1fD2MLk4Wqy3/jvnk2cu79p/auueoepTmMXAz7+7QqcvjooN6pyYlxoWFBvq4uRoIoYX37hfeK76Vf/fE2cvHMi8dO32pmjskhJZYbXcKzedzbh4+fn7Lrt+v3Ciw2+bLb37N+CN3ZFrHFgkRJjfngrvm46dzVm/et//3P9Qtjn3etj+j85D5zeLDm8eHRwT7epmMHiajXsdbLLbrtwszsnJ/+u3kjr0nyl+S/fNlZIKSxyEAeCLNCgByACAHAHIAAMgBgBwAyAGAHADIAYAcAMgBgBwAyAGAHADIAQAgBwByACAHAHIAIAfwl+M/8O2LHhTfE5EAAAAASUVORK5CYII="/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;-webkit-font-smoothing:antialiased}
 html,body{width:100%;background:#fff;color:#1C1C1E;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;line-height:1.5;scroll-behavior:smooth}
@@ -22,22 +20,23 @@ section{padding:80px 0}
 .nav{position:sticky;top:0;background:rgba(255,255,255,0.92);backdrop-filter:blur(20px);border-bottom:1px solid #F0F0F0;z-index:100}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1100px;margin:0 auto}
 .nav-logo{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:700;color:#1C3A6B}
-.nav-logo img{width:32px;height:32px;border-radius:8px}
+.nav-logo .logo-mark{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#1C3A6B 0%,#2E5FBF 100%);color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px}
 .nav-links{display:flex;align-items:center;gap:24px}
 .nav-links a{font-size:14px;font-weight:500;color:#1C1C1E;opacity:0.7;transition:opacity 0.15s}
 .nav-links a:hover{opacity:1}
 .nav-cta{background:#1C3A6B;color:#fff!important;padding:9px 18px;border-radius:10px;font-weight:600;opacity:1!important}
 .nav-cta:hover{background:#2E5FBF}
 @media (max-width:640px){.nav-links a:not(.nav-cta){display:none}}
-.hero{padding:80px 0 100px;text-align:center;background:linear-gradient(180deg,#F8FAFC 0%,#fff 100%);position:relative;overflow:hidden}
-.hero-watermark{position:absolute;right:-60px;top:50%;transform:translateY(-50%);height:600px;width:auto;opacity:0.04;pointer-events:none;z-index:0}
+
+.hero{padding:80px 0 80px;text-align:center;background:linear-gradient(180deg,#F8FAFC 0%,#fff 100%);position:relative;overflow:hidden}
 .hero .wrap{position:relative;z-index:1}
-@media (max-width:900px){.hero-watermark{right:-150px;height:500px;opacity:0.05}}
-@media (max-width:640px){.hero-watermark{height:400px;right:-100px;opacity:0.06}}
-.tag{display:inline-block;padding:6px 14px;border-radius:20px;background:#FFF8E5;color:#806000;font-size:12px;font-weight:600;margin-bottom:24px;letter-spacing:0.3px}
-.hero h1{font-size:60px;font-weight:800;line-height:1.05;letter-spacing:-1.5px;color:#1C1C1E;margin-bottom:20px;max-width:760px;margin-left:auto;margin-right:auto}
+.tags{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.tag{display:inline-flex;align-items:center;gap:5px;padding:6px 12px;border-radius:20px;background:#FFF8E5;color:#806000;font-size:11px;font-weight:600;letter-spacing:0.3px}
+.tag.ai{background:linear-gradient(135deg,#AF52DE15,#5856D615);color:#5856D6;border:1px solid #AF52DE30}
+.hero h1{font-size:60px;font-weight:800;line-height:1.05;letter-spacing:-1.5px;color:#1C1C1E;margin-bottom:20px;max-width:780px;margin-left:auto;margin-right:auto}
 .hero h1 span{color:#1C3A6B}
-.hero-sub{font-size:18px;color:#5A5A5C;max-width:600px;margin:0 auto 36px;line-height:1.6}
+.hero h1 .ai-accent{background:linear-gradient(135deg,#AF52DE,#5856D6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:18px;color:#5A5A5C;max-width:640px;margin:0 auto 36px;line-height:1.6}
 .hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
 .btn-primary{background:#1C3A6B;color:#fff;padding:14px 28px;border-radius:12px;font-size:15px;font-weight:600;border:none;cursor:pointer;font-family:inherit;transition:all 0.15s;display:inline-block}
 .btn-primary:hover{background:#2E5FBF;transform:translateY(-1px);box-shadow:0 4px 16px rgba(28,58,107,0.25)}
@@ -45,43 +44,68 @@ section{padding:80px 0}
 .btn-secondary:hover{background:#E5E5EA}
 .hero-trust{font-size:13px;color:#8E8E93;margin-top:8px}
 @media (max-width:640px){.hero h1{font-size:38px;letter-spacing:-1px}.hero-sub{font-size:16px}}
+
+.ai-strip{background:linear-gradient(135deg,#AF52DE08,#5856D608);border-top:1px solid #AF52DE20;border-bottom:1px solid #AF52DE20;padding:24px 0}
+.ai-strip-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;align-items:center}
+@media (max-width:768px){.ai-strip-inner{grid-template-columns:repeat(2,1fr);gap:14px}}
+.ai-feat{display:flex;align-items:center;gap:10px}
+.ai-feat-icon{font-size:24px;flex-shrink:0;width:38px;height:38px;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.ai-feat-text{flex:1;min-width:0}
+.ai-feat-label{font-size:10px;font-weight:700;color:#5856D6;text-transform:uppercase;letter-spacing:0.6px}
+.ai-feat-name{font-size:13px;font-weight:700;color:#1C1C1E;line-height:1.2;margin-top:1px}
+
 .preview{padding:60px 0;background:#F8FAFC}
 .preview-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
 @media (max-width:768px){.preview-grid{grid-template-columns:1fr;gap:40px}}
 .preview-text h2{font-size:36px;font-weight:800;letter-spacing:-0.8px;line-height:1.15;margin-bottom:16px;color:#1C1C1E}
 .preview-text p{color:#5A5A5C;font-size:16px;line-height:1.7;margin-bottom:14px}
-.phone-mockup{background:#1C1C1E;border-radius:36px;padding:10px;box-shadow:0 30px 60px -20px rgba(28,58,107,0.3);max-width:320px;margin:0 auto}
-.phone-screen{background:#fff;border-radius:28px;overflow:hidden;aspect-ratio:9/19}
+.phone-mockup{background:#1C1C1E;border-radius:36px;padding:10px;box-shadow:0 30px 60px -20px rgba(28,58,107,0.3);max-width:320px;margin:0 auto;position:relative}
+.phone-screen{background:#F2F2F7;border-radius:28px;overflow:hidden;aspect-ratio:9/19}
 .phone-topbar{background:#1C3A6B;padding:24px 16px 12px;display:flex;align-items:center;justify-content:space-between;color:#fff}
-.phone-content{padding:16px}
+.phone-content{padding:14px}
 .phone-greeting{font-size:11px;font-weight:600;color:#1C3A6B;margin-bottom:2px}
 .phone-h1{font-size:18px;font-weight:800;color:#1C1C1E;letter-spacing:-0.3px}
 .phone-arrows{display:flex;align-items:center;gap:6px;margin:10px 0}
-.phone-arrow{width:24px;height:24px;border-radius:12px;background:#F2F2F7;display:flex;align-items:center;justify-content:center;font-size:14px;color:#1C3A6B}
+.phone-arrow{width:24px;height:24px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;color:#1C3A6B}
 .phone-pill{flex:1;padding:5px;background:#1C3A6B;color:#fff;border-radius:8px;font-size:9px;font-weight:700;text-align:center}
 .phone-card{background:#fff;border-radius:10px;padding:8px;border:1px solid #F0F0F0;margin-bottom:8px;font-size:9px}
+.phone-pending{background:linear-gradient(135deg,#AF52DE,#5856D6);color:#fff;padding:9px 10px;display:flex;align-items:center;gap:8px;border-radius:10px;margin-bottom:8px}
+.phone-pending-icon{width:24px;height:24px;border-radius:12px;background:rgba(255,255,255,0.22);display:flex;align-items:center;justify-content:center;font-size:13px}
+.phone-pending-text{flex:1;line-height:1.2}
+.phone-pending-text strong{display:block;font-weight:800;font-size:10px}
+.phone-pending-text span{font-size:8.5px;opacity:0.9}
+.phone-bday{background:#fff;border-radius:10px;padding:7px 10px;margin-bottom:8px;display:flex;align-items:center;gap:7px;border-left:3px solid #FF6B9D}
+.phone-bday-icon{width:22px;height:22px;border-radius:11px;background:#FF6B9D18;border:1.5px solid #FF6B9D;display:flex;align-items:center;justify-content:center;font-size:11px}
+.phone-bday-text{flex:1;font-size:9px;font-weight:700;color:#1C1C1E}
+.phone-bday-meta{margin-top:2px}
+.phone-bday-badge{background:#FF9500;color:#fff;font-size:7px;font-weight:700;padding:1px 5px;border-radius:5px}
+.phone-fab{position:absolute;bottom:24px;right:24px;width:38px;height:38px;border-radius:19px;background:linear-gradient(135deg,#FF3B30,#AF52DE);display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 4px 12px rgba(255,59,48,0.4);z-index:5}
 .phone-sh{font-size:8px;font-weight:700;color:#8E8E93;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:4px}
-.phone-row{padding:6px 0;border-bottom:1px solid #F2F2F7;display:flex;align-items:center;gap:6px;font-size:9px}
-.phone-row:last-child{border:0}
-.phone-dot{width:10px;height:10px;border-radius:5px;flex-shrink:0}
+
 .how h2{font-size:14px;font-weight:700;color:#1C3A6B;text-transform:uppercase;letter-spacing:1px;text-align:center;margin-bottom:8px}
 .how h3{font-size:36px;font-weight:800;letter-spacing:-0.8px;text-align:center;margin-bottom:48px;color:#1C1C1E;max-width:700px;margin-left:auto;margin-right:auto;line-height:1.15}
 .steps{display:grid;grid-template-columns:repeat(2,1fr);gap:30px}
 @media (max-width:768px){.steps{grid-template-columns:1fr}}
-.step{padding:24px;background:#F8FAFC;border-radius:16px;border:1px solid #F0F0F0;transition:all 0.2s}
+.step{padding:24px;background:#F8FAFC;border-radius:16px;border:1px solid #F0F0F0;transition:all 0.2s;position:relative}
 .step:hover{border-color:#1C3A6B;box-shadow:0 4px 16px rgba(28,58,107,0.08)}
 .step-num{font-size:13px;font-weight:700;color:#1C3A6B;letter-spacing:1px;margin-bottom:8px}
 .step h4{font-size:20px;font-weight:700;margin-bottom:8px;color:#1C1C1E}
 .step p{color:#5A5A5C;font-size:15px;line-height:1.6}
+.step-ai-badge{position:absolute;top:14px;right:14px;background:linear-gradient(135deg,#AF52DE,#5856D6);color:#fff;font-size:9px;font-weight:800;padding:3px 8px;border-radius:6px;letter-spacing:0.5px}
+
 .features{background:#F8FAFC}
 .features h2{font-size:14px;font-weight:700;color:#1C3A6B;text-transform:uppercase;letter-spacing:1px;text-align:center;margin-bottom:8px}
 .features h3{font-size:36px;font-weight:800;letter-spacing:-0.8px;text-align:center;margin-bottom:48px;color:#1C1C1E}
 .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 @media (max-width:768px){.feature-grid{grid-template-columns:1fr}}
-.feature{background:#fff;border-radius:14px;padding:28px;border:1px solid #F0F0F0}
+.feature{background:#fff;border-radius:14px;padding:28px;border:1px solid #F0F0F0;position:relative}
+.feature.ai{border-color:#AF52DE40;box-shadow:0 4px 16px rgba(175,82,222,0.06)}
 .feature-tag{font-size:11px;font-weight:700;color:#1C3A6B;letter-spacing:0.6px;text-transform:uppercase;margin-bottom:8px}
+.feature.ai .feature-tag{color:#5856D6}
 .feature h4{font-size:19px;font-weight:700;margin-bottom:8px;color:#1C1C1E}
 .feature p{color:#5A5A5C;font-size:14px;line-height:1.6}
+.ai-badge{position:absolute;top:18px;right:18px;background:linear-gradient(135deg,#AF52DE,#5856D6);color:#fff;font-size:9px;font-weight:800;padding:3px 8px;border-radius:6px;letter-spacing:0.5px}
+
 .audience h2{font-size:14px;font-weight:700;color:#1C3A6B;text-transform:uppercase;letter-spacing:1px;text-align:center;margin-bottom:8px}
 .audience h3{font-size:36px;font-weight:800;letter-spacing:-0.8px;text-align:center;margin-bottom:48px;color:#1C1C1E;max-width:700px;margin-left:auto;margin-right:auto;line-height:1.15}
 .audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
@@ -91,6 +115,7 @@ section{padding:80px 0}
 .aud h4{font-size:22px;font-weight:700;margin-bottom:10px;color:#1C1C1E}
 .aud p{color:#5A5A5C;font-size:15px;line-height:1.6;flex:1;margin-bottom:14px}
 .aud-link{font-size:14px;font-weight:600;color:#1C3A6B}
+
 .cta-section{background:#1C3A6B;color:#fff;text-align:center;padding:80px 24px}
 .cta-section h2{font-size:42px;font-weight:800;letter-spacing:-1px;margin-bottom:14px;line-height:1.15}
 .cta-section p{font-size:17px;opacity:0.85;margin-bottom:30px;max-width:540px;margin-left:auto;margin-right:auto;line-height:1.6}
@@ -100,17 +125,19 @@ section{padding:80px 0}
 .cta-section .btn-secondary:hover{background:rgba(255,255,255,0.22)}
 .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 @media (max-width:640px){.cta-section h2{font-size:30px}}
+
 .footer{background:#0F1F3A;color:#fff;padding:48px 0 30px}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
 @media (max-width:768px){.footer-grid{grid-template-columns:1fr 1fr;gap:24px}}
 .footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:18px;font-weight:700}
-.footer-brand img{width:32px;height:32px;border-radius:8px}
+.footer-brand .logo-mark{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#1C3A6B 0%,#2E5FBF 100%);color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px}
 .footer-tagline{font-size:14px;opacity:0.7;line-height:1.6;max-width:280px}
 .footer-col h5{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:14px;opacity:0.7}
 .footer-col a{display:block;font-size:14px;opacity:0.85;margin-bottom:8px;transition:opacity 0.15s}
 .footer-col a:hover{opacity:1}
 .footer-bottom{border-top:1px solid rgba(255,255,255,0.1);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px;opacity:0.5}
 @media (max-width:640px){.footer-bottom{flex-direction:column;text-align:center}}
+
 .legal{padding:60px 24px;max-width:800px;margin:0 auto}
 .legal h1{font-size:38px;font-weight:800;letter-spacing:-0.8px;margin-bottom:8px;color:#1C1C1E}
 .legal .last{font-size:13px;color:#8E8E93;margin-bottom:30px}
@@ -126,7 +153,7 @@ section{padding:80px 0}
 <nav class="nav">
   <div class="nav-inner">
     <a href="#top" class="nav-logo" onclick="showHome();return false">
-      <img src="data:image/png;base64,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" alt="HomeBase"/>
+      <div class="logo-mark">🏠</div>
       <span>HomeBase</span>
     </a>
     <div class="nav-links">
@@ -140,11 +167,13 @@ section{padding:80px 0}
 
 <div id="home-content">
   <section class="hero" id="top">
-    <img class="hero-watermark" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABhCAYAAABrh9cKAAABfElEQVR42u2cwXHDMAwEyRuXkUrSUupJS6kkfSQvfzJ2okgCcYB2X/Z4xjqtAMqkJY0BAAAAAAAAsJHpEOLl9e3r/vrz490ik5ykPHp/STHPJDjImW5SfpLVWnKWklk9cpaSKWc6C8lsK1WRsrpyVEXKajmqJGWlHFWTsur7VfWIRm9nVpUSfcZSBykR21YHKREZZgchEW2lblLOyqVuUs7Kp45SzsiprlKO5lVnKUdyq7uUvfl1BSl79kPjYmyVo6tUi82yA2KathMVgxjEICaSW4WQz9ZX7oPoo89TZte0EmIAMdmD79YF6b2DZPQcbkYE+O8qfcZE9a+MFq3kcqUmv2MYfBGDGMQkn7VuVY7gb3IixNFKiEEMYhCDGMTYT1r5JxIxtBJiUscYx9W1aCljBN36t2KduFwrdbkCy2aMcRMqqiVYzBlSnMTKrVJ46IW5HHUqfxsxkVKyhVvfyJUph0nkmWJWHskyz4/JCJqxTVoJAAAAAAAA4CjfrCKqkIi6k10AAAAASUVORK5CYII=" alt="" aria-hidden="true"/>
     <div class="wrap">
-      <div class="tag">🇦🇺 FREE DURING PILOT · BUILT IN AUSTRALIA</div>
-      <h1>Family logistics,<br/><span>made simple.</span></h1>
-      <p class="hero-sub">One calm place to track school drop-offs, after-school sport, packing lists, dinners, and play dates. So nothing gets missed and everyone stays in sync.</p>
+      <div class="tags">
+        <span class="tag">🇦🇺 FREE DURING PILOT · BUILT IN AUSTRALIA</span>
+        <span class="tag ai">✨ NOW WITH AI</span>
+      </div>
+      <h1>Family logistics,<br/><span>made simple</span> — <span class="ai-accent">now smarter.</span></h1>
+      <p class="hero-sub">One calm place to track school, sport, dinners, and play dates. Forward school emails to AI. Speak commands instead of typing. So nothing gets missed and everyone stays in sync.</p>
       <div class="hero-cta">
         <a href="https://home-base-orcin.vercel.app" class="btn-primary">Get started — it's free</a>
         <a href="#how-it-works" class="btn-secondary">See how it works</a>
@@ -153,140 +182,118 @@ section{padding:80px 0}
     </div>
   </section>
 
+  <div class="ai-strip">
+    <div class="wrap">
+      <div class="ai-strip-inner">
+        <div class="ai-feat">
+          <div class="ai-feat-icon">📥</div>
+          <div class="ai-feat-text">
+            <div class="ai-feat-label">AI INBOX</div>
+            <div class="ai-feat-name">Forward emails, get events</div>
+          </div>
+        </div>
+        <div class="ai-feat">
+          <div class="ai-feat-icon">🎤</div>
+          <div class="ai-feat-text">
+            <div class="ai-feat-label">VOICE</div>
+            <div class="ai-feat-name">Speak any command</div>
+          </div>
+        </div>
+        <div class="ai-feat">
+          <div class="ai-feat-icon">🏊</div>
+          <div class="ai-feat-text">
+            <div class="ai-feat-label">FIXTURES</div>
+            <div class="ai-feat-name">URL or screenshot import</div>
+          </div>
+        </div>
+        <div class="ai-feat">
+          <div class="ai-feat-icon">🎂</div>
+          <div class="ai-feat-text">
+            <div class="ai-feat-label">REMINDERS</div>
+            <div class="ai-feat-name">Birthday countdowns</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <section class="preview">
     <div class="wrap">
       <div class="preview-grid">
         <div class="preview-text">
           <h2>Your family at a glance.</h2>
           <p>Open HomeBase in the morning and see exactly what today looks like — every child's events, who's doing drop-off, who's picking up, what needs to be packed, and what's for dinner.</p>
-          <p>Tap the day arrows to scroll forwards or back. Spot a clash before it happens. Plan without the spreadsheet.</p>
+          <p>New events from forwarded school emails appear at the top, ready to review. Birthdays count down automatically. Tap the voice button to add anything else.</p>
+          <p>Plan without the spreadsheet. Spot a clash before it happens.</p>
         </div>
         <div class="phone-mockup">
           <div class="phone-screen">
             <div class="phone-topbar">
               <div style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600">
-                <img src="data:image/png;base64,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" style="width:22px;height:22px;border-radius:5px"/>
+                <div style="width:22px;height:22px;border-radius:5px;background:linear-gradient(135deg,#fff,#cfd8e8);color:#1C3A6B;display:flex;align-items:center;justify-content:center;font-size:13px">🏠</div>
                 <span>HomeBase</span>
               </div>
               <div style="display:flex;align-items:center;gap:5px;font-size:10px">
-                <span style="background:rgba(255,255,255,0.18);padding:3px 7px;border-radius:9px">☀️ 13°</span>
-                <span style="width:18px;height:18px;border-radius:9px;background:rgba(255,255,255,0.18);display:inline-flex;align-items:center;justify-content:center;font-size:9px">🌙</span>
+                <span style="background:rgba(255,255,255,0.18);padding:3px 7px;border-radius:9px">☀️ 22°</span>
                 <span style="opacity:0.85">Nash</span>
               </div>
             </div>
             <div class="phone-content">
-              <div class="phone-greeting">⭐ Good night, Nash!</div>
+              <div class="phone-greeting">☀️ Good morning, Nash!</div>
               <div class="phone-h1">The Clarks</div>
               <div class="phone-arrows">
                 <div class="phone-arrow">‹</div>
-                <div class="phone-pill">Today · Mon 27 Apr</div>
+                <div class="phone-pill">Today · Fri 8 May</div>
                 <div class="phone-arrow">›</div>
-                <div style="background:#FF9500;color:#fff;padding:3px 8px;border-radius:8px;font-size:8px;font-weight:700">Today</div>
               </div>
 
-              <!-- Family tiles row -->
-              <div style="display:flex;gap:6px;overflow-x:hidden;margin-bottom:10px">
-                <div style="min-width:62px;flex:1;background:#fff;border-radius:8px;padding:5px 6px;border-top:2px solid #007AFF;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
-                  <div style="display:flex;align-items:center;gap:4px;margin-bottom:3px">
-                    <div style="width:14px;height:14px;border-radius:7px;background:#007AFF;color:#fff;font-size:7px;font-weight:700;display:flex;align-items:center;justify-content:center">A</div>
-                    <div style="font-size:8px;font-weight:700">Alby</div>
-                    <div style="font-size:6.5px;color:#8E8E93;margin-left:auto">Y7</div>
-                  </div>
-                  <div style="font-size:6.5px;color:#007AFF;font-weight:600">0/1 packed</div>
-                  <div style="font-size:6px;color:#8E8E93;margin-top:1px">📅 1 event</div>
-                </div>
-                <div style="min-width:62px;flex:1;background:#fff;border-radius:8px;padding:5px 6px;border-top:2px solid #AF52DE;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
-                  <div style="display:flex;align-items:center;gap:4px;margin-bottom:3px">
-                    <div style="width:14px;height:14px;border-radius:7px;background:#AF52DE;color:#fff;font-size:7px;font-weight:700;display:flex;align-items:center;justify-content:center">F</div>
-                    <div style="font-size:8px;font-weight:700">Floss</div>
-                    <div style="font-size:6.5px;color:#8E8E93;margin-left:auto">Y2</div>
-                  </div>
-                  <div style="font-size:6.5px;color:#8E8E93;font-weight:600">Nothing to pack</div>
-                  <div style="font-size:6px;color:#8E8E93;margin-top:1px">📅 2 events</div>
-                </div>
-                <div style="min-width:62px;flex:1;background:#fff;border-radius:8px;padding:5px 6px;border-top:2px solid #FF6B9D;box-shadow:0 1px 3px rgba(0,0,0,0.08)">
-                  <div style="display:flex;align-items:center;gap:4px;margin-bottom:3px">
-                    <div style="width:14px;height:14px;border-radius:7px;background:#FF6B9D;color:#fff;font-size:7px;font-weight:700;display:flex;align-items:center;justify-content:center">H</div>
-                    <div style="font-size:8px;font-weight:700">Hattie</div>
-                    <div style="font-size:6.5px;color:#8E8E93;margin-left:auto">K</div>
-                  </div>
-                  <div style="font-size:6.5px;color:#FF3B30;font-weight:600">0/1 packed</div>
-                  <div style="font-size:6px;color:#8E8E93;margin-top:1px">📅 1 event</div>
+              <div class="phone-pending">
+                <div class="phone-pending-icon">🤖</div>
+                <div class="phone-pending-text">
+                  <strong>2 events from email</strong>
+                  <span>Tap to review and approve</span>
                 </div>
               </div>
 
-              <!-- Today's Activities -->
-              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;padding:0 2px">
-                <div style="font-size:9px;font-weight:700;color:#8E8E93;letter-spacing:0.4px">📅 TODAY'S ACTIVITIES</div>
-                <div style="font-size:8px;font-weight:700;background:#FF9500;color:#fff;padding:2px 6px;border-radius:6px">1 for Nash</div>
+              <div class="phone-sh">⏰ REMINDERS</div>
+              <div class="phone-bday">
+                <div class="phone-bday-icon">🎂</div>
+                <div class="phone-bday-text">
+                  Hattie's birthday (turning 12)
+                  <div class="phone-bday-meta"><span class="phone-bday-badge">in 3 days</span></div>
+                </div>
               </div>
+
+              <div class="phone-sh">📅 TODAY'S ACTIVITIES</div>
               <div class="phone-card" style="padding:0">
-                <!-- Event 1: Swimming - YOU highlight -->
-                <div style="padding:7px 8px;background:#FFF8E5;border-bottom:1px solid #F2F2F7;display:flex;align-items:flex-start;gap:6px">
-                  <span style="color:#8E8E93;font-weight:600;font-size:8px;width:32px;flex-shrink:0">5:25am</span>
-                  <div style="width:18px;height:18px;border-radius:9px;background:#007AFF18;border:1.5px solid #007AFF;display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0">🏊</div>
-                  <div style="flex:1;min-width:0">
-                    <div style="display:flex;align-items:center;gap:4px;flex-wrap:wrap">
-                      <strong style="font-size:9px">Swimming</strong>
-                      <span style="font-size:6.5px;background:#FF9500;color:#fff;padding:1px 4px;border-radius:4px;font-weight:700">YOU</span>
-                      <span style="font-size:6.5px;background:#34C75920;color:#1F8E3F;padding:1px 4px;border-radius:4px;font-weight:700">⚽</span>
-                    </div>
-                    <div style="font-size:7px;color:#8E8E93;margin-top:1px">Alby · 📍 GT Aquatics</div>
-                    <div style="font-size:7px;color:#1C3A6B;margin-top:1px">🚗 <strong>Nash (you)</strong> · 🏠 Olivia</div>
-                  </div>
-                </div>
-                <!-- Event 2: Swimming Hattie -->
                 <div style="padding:7px 8px;border-bottom:1px solid #F2F2F7;display:flex;align-items:flex-start;gap:6px">
-                  <span style="color:#8E8E93;font-weight:600;font-size:7.5px;width:32px;flex-shrink:0">5:45-7pm</span>
-                  <div style="width:18px;height:18px;border-radius:9px;background:#FF6B9D18;border:1.5px solid #FF6B9D;display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0">🏊</div>
+                  <span style="color:#8E8E93;font-weight:600;font-size:8px;width:32px;flex-shrink:0">3:45pm</span>
+                  <div style="width:18px;height:18px;border-radius:9px;background:#34C75918;border:1.5px solid #34C759;display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0">⚽</div>
                   <div style="flex:1;min-width:0">
-                    <strong style="font-size:9px">Swimming – Hattie</strong>
-                    <div style="font-size:7px;color:#8E8E93;margin-top:1px">Hattie · 📍 GT Aquatic</div>
-                    <div style="font-size:7px;color:#1C3A6B;margin-top:1px">🚗 Olivia · 🏠 Olivia</div>
+                    <strong style="font-size:9px">Soccer Training</strong>
+                    <div style="font-size:7px;color:#8E8E93;margin-top:1px">Alby</div>
+                    <div style="font-size:7px;color:#1C3A6B;margin-top:1px">🚗 Nash · 🏠 Olivia</div>
                   </div>
                 </div>
-                <!-- Event 3: Mum's Pilates (replacing Fernwood per user) -->
-                <div style="padding:7px 8px;border-bottom:1px solid #F2F2F7;display:flex;align-items:flex-start;gap:6px">
-                  <span style="color:#8E8E93;font-weight:600;font-size:8px;width:32px;flex-shrink:0">6:00am</span>
-                  <div style="width:18px;height:18px;border-radius:9px;background:#34C75918;border:1.5px solid #34C759;display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0">🧘</div>
-                  <div style="flex:1;min-width:0">
-                    <strong style="font-size:9px">Pilates</strong>
-                    <div style="font-size:7px;color:#8E8E93;margin-top:1px">Olivia (Mum)</div>
-                  </div>
-                </div>
-                <!-- Event 4: Birthday party -->
-                <div style="padding:7px 8px;border-bottom:1px solid #F2F2F7;display:flex;align-items:flex-start;gap:6px">
-                  <span style="color:#8E8E93;font-weight:600;font-size:8px;width:32px;flex-shrink:0">9:30am</span>
-                  <div style="width:18px;height:18px;border-radius:9px;background:#AF52DE18;border:1.5px solid #AF52DE;display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0">🎂</div>
-                  <div style="flex:1;min-width:0">
-                    <strong style="font-size:9px">Birthday – Georgie</strong>
-                    <div style="font-size:7px;color:#8E8E93;margin-top:1px">Floss</div>
-                    <div style="font-size:7px;color:#1C3A6B;margin-top:1px">🚗 Nash · 🏠 Nash</div>
-                  </div>
-                </div>
-                <!-- Event 5: PE -->
                 <div style="padding:7px 8px;display:flex;align-items:flex-start;gap:6px">
-                  <span style="color:#8E8E93;font-weight:600;font-size:8px;width:32px;flex-shrink:0"></span>
-                  <div style="width:18px;height:18px;border-radius:9px;background:#AF52DE18;border:1.5px solid #AF52DE;display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0">🏋</div>
+                  <span style="color:#8E8E93;font-weight:600;font-size:8px;width:32px;flex-shrink:0">5:00pm</span>
+                  <div style="width:18px;height:18px;border-radius:9px;background:#AF52DE18;border:1.5px solid #AF52DE;display:flex;align-items:center;justify-content:center;font-size:9px;flex-shrink:0">🎵</div>
                   <div style="flex:1;min-width:0">
-                    <strong style="font-size:9px">PE</strong>
-                    <div style="font-size:7px;color:#8E8E93;margin-top:1px">Floss</div>
+                    <strong style="font-size:9px">Piano</strong>
+                    <div style="font-size:7px;color:#8E8E93;margin-top:1px">Floss · 📍 Music Centre</div>
                   </div>
                 </div>
               </div>
 
-              <!-- Today's Packing preview -->
-              <div style="font-size:9px;font-weight:700;color:#8E8E93;letter-spacing:0.4px;margin:8px 2px 4px">🎒 TODAY\'S PACKING · 0/2</div>
-              <div class="phone-card" style="padding:7px 8px">
-                <div style="display:flex;align-items:center;gap:5px;margin-bottom:3px">
-                  <div style="width:12px;height:12px;border-radius:6px;background:#007AFF;color:#fff;font-size:6.5px;font-weight:700;display:flex;align-items:center;justify-content:center">A</div>
-                  <span style="font-size:8px;font-weight:700">Alby</span>
-                  <span style="margin-left:auto;font-size:6.5px;font-weight:700;background:#007AFF18;color:#007AFF;padding:1px 5px;border-radius:6px">0/1</span>
-                </div>
-                <div style="display:flex;align-items:center;gap:5px;font-size:7.5px;padding:1px 0"><div style="width:8px;height:8px;border:1.5px solid #007AFF;border-radius:2px"></div><span>Swim bag</span></div>
+              <div class="phone-sh" style="margin-top:6px">🛒 SHOPPING LIST · 4 ITEMS</div>
+              <div class="phone-card" style="padding:6px 8px">
+                <div style="display:flex;align-items:center;gap:5px;font-size:8px;padding:1px 0"><div style="width:8px;height:8px;border:1.5px solid #34C759;border-radius:2px"></div><span>Milk × 2</span></div>
+                <div style="display:flex;align-items:center;gap:5px;font-size:8px;padding:1px 0"><div style="width:8px;height:8px;border:1.5px solid #34C759;border-radius:2px"></div><span>Bread</span></div>
+                <div style="display:flex;align-items:center;gap:5px;font-size:8px;padding:1px 0"><div style="width:8px;height:8px;border:1.5px solid #34C759;border-radius:2px"></div><span>Bananas</span></div>
               </div>
             </div>
           </div>
+          <div class="phone-fab">🎤</div>
         </div>
       </div>
     </div>
@@ -308,14 +315,15 @@ section{padding:80px 0}
           <p>Each child gets their own profile — name, year, school, photo, and a colour. Their packing list, events, and assessments all live there.</p>
         </div>
         <div class="step">
+          <span class="step-ai-badge">NEW · AI</span>
           <div class="step-num">03</div>
-          <h4>Add events and routines</h4>
-          <p>Soccer Tuesdays. Piano Thursdays. School excursions. Birthday parties. Set drop-off and pick-up so everyone knows who's responsible.</p>
+          <h4>Forward emails to AI</h4>
+          <p>You'll get a private forwarding address. Forward school newsletters, sport notices, excursion notes — AI extracts the events and reminders for you to approve.</p>
         </div>
         <div class="step">
           <div class="step-num">04</div>
           <h4>Stay in sync, automatically</h4>
-          <p>Everyone in the family sees the same schedule, packing lists, and dinner plan in real time. Snap a photo of a school invite and HomeBase auto-fills the details.</p>
+          <p>Everyone in the family sees the same schedule, packing lists, and dinner plan in real time. Tap the mic to add anything else by voice.</p>
         </div>
       </div>
     </div>
@@ -326,15 +334,28 @@ section{padding:80px 0}
       <h2>Features</h2>
       <h3>Everything you need to run the family week.</h3>
       <div class="feature-grid">
+        <div class="feature ai">
+          <span class="ai-badge">AI</span>
+          <div class="feature-tag">Email Inbox</div>
+          <h4>Forward emails, get events</h4>
+          <p>Forward any school newsletter, sport notice, or excursion note to your private HomeBase address. AI extracts the events, dates, RSVPs, and payment deadlines for you to approve.</p>
+        </div>
+        <div class="feature ai">
+          <span class="ai-badge">AI</span>
+          <div class="feature-tag">Voice Commands</div>
+          <h4>Speak instead of type</h4>
+          <p>"Add netball training Tuesdays at 5pm." "Remind me to pay school fees Friday." "Add milk and bread to shopping." AI routes everything to the right place.</p>
+        </div>
+        <div class="feature ai">
+          <span class="ai-badge">AI</span>
+          <div class="feature-tag">Sport Fixtures</div>
+          <h4>Schedule import</h4>
+          <p>Paste a fixture URL, upload a PDF, or screenshot a fixture page. AI reads it like a person — dates, opponents, court numbers, BYE rounds — all imported.</p>
+        </div>
         <div class="feature">
           <div class="feature-tag">Daily snapshot</div>
           <h4>The whole family, one screen</h4>
           <p>See every child's events for the day, sorted by time. Drop-off and pick-up clearly marked. Tap arrows to look ahead or back.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-tag">Smart scan</div>
-          <h4>Photo capture, auto-fill</h4>
-          <p>Snap a photo of a birthday invite or assessment sheet. HomeBase reads the date, time, location, and contact details — all on your device, nothing uploaded.</p>
         </div>
         <div class="feature">
           <div class="feature-tag">Co-parenting</div>
@@ -348,13 +369,18 @@ section{padding:80px 0}
         </div>
         <div class="feature">
           <div class="feature-tag">Play dates</div>
-          <h4>Never lose a party invite again</h4>
+          <h4>Never lose a party invite</h4>
           <p>Track play dates, sleepovers, and birthday parties. RSVP status, host parent contacts, present ideas, drop-off plans — all in one place.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-tag">Reminders</div>
+          <h4>Birthday countdowns</h4>
+          <p>Family birthdays auto-appear in your reminders 10 days out. Counts down daily — "in 7 days" → "Tomorrow" → "🎉 Today!" Mother's Day and Father's Day too.</p>
         </div>
         <div class="feature">
           <div class="feature-tag">Privacy</div>
           <h4>Your data, your family</h4>
-          <p>Hosted in Sydney. No ads, no tracking, no AI training. Only people in your family can see your information — technically enforced.</p>
+          <p>Hosted in Sydney. No ads, no tracking, no AI training on your data. Only people in your family can see your information — technically enforced.</p>
         </div>
       </div>
     </div>
@@ -368,13 +394,13 @@ section{padding:80px 0}
         <div class="aud">
           <div class="aud-tag">For parents</div>
           <h4>Mums &amp; Dads</h4>
-          <p>Stop relying on the family group chat or sticky notes on the fridge. Get one source of truth for school runs, sport, packing, and meals — that updates the moment your partner adds something.</p>
+          <p>Stop relying on the family group chat or sticky notes on the fridge. Forward emails, speak commands, get one source of truth that updates the moment your partner adds something.</p>
           <a href="https://home-base-orcin.vercel.app" class="aud-link">Get started →</a>
         </div>
         <div class="aud">
           <div class="aud-tag">For co-parents</div>
           <h4>Separated &amp; blended families</h4>
-          <p>Share schedules without sharing tension. Each adult has their own login. See who's doing what, when, with clear drop-off and pick-up — no "I thought you had her" moments.</p>
+          <p>Share schedules without sharing tension. Each adult has their own login. Both parents get notified when school emails arrive — no one is the gatekeeper.</p>
           <a href="https://home-base-orcin.vercel.app" class="aud-link">See how →</a>
         </div>
         <div class="aud">
@@ -389,7 +415,7 @@ section{padding:80px 0}
 
   <section class="cta-section">
     <h2>Try HomeBase with your family.</h2>
-    <p>Free during the pilot. No credit card. Add your family in five minutes — see if it makes mornings (and nights, and weekends) easier.</p>
+    <p>Free during the pilot. No credit card. Set up in five minutes — and start forwarding school emails to AI right away.</p>
     <div class="cta-row">
       <a href="https://home-base-orcin.vercel.app" class="btn-primary">Get started — free</a>
       <a href="#how-it-works" class="btn-secondary">See how it works</a>
@@ -400,19 +426,21 @@ section{padding:80px 0}
 <div id="privacy-content" class="hidden">
   <section class="legal">
     <h1>Privacy &amp; Your Data</h1>
-    <div class="last">Last updated: April 2026</div>
+    <div class="last">Last updated: May 2026</div>
     <p>HomeBase is built so your family's information stays private to your family. Plain-English explanation of what we store and how.</p>
     <h2>What we store</h2>
     <ul>
       <li>Your name and email (for sign in)</li>
       <li>Family name and a unique family code</li>
       <li>Children's names, ages, year level, school, optional photo</li>
-      <li>Other adults' names, contact info, and photos when you add them</li>
-      <li>Events, packing lists, dinners, shopping lists, assessments, gifts, play dates</li>
-      <li>Your weather location and notification preferences</li>
+      <li>Other adults' names, contact info, photos, optional birth dates and parent-day flags</li>
+      <li>Events, packing lists, dinners, shopping lists, reminders, gifts, play dates</li>
+      <li>Forwarded emails sent to your inbound address (used by AI to extract events, then archived)</li>
     </ul>
     <h2>Where it's stored</h2>
     <p>All data lives in Google Firebase — the same secure platform used by thousands of apps. Your data is stored in Sydney, Australia for fast access and Australian data residency.</p>
+    <h2>AI processing</h2>
+    <p>When AI extracts events from your forwarded emails, voice commands, or fixture screenshots, the data is sent to Anthropic's Claude API for processing. <strong>Anthropic does not use your data to train their models.</strong> Only the extracted structured data (events, reminders) is stored — the raw inputs are not retained beyond a brief processing window.</p>
     <h2>Who can see your data</h2>
     <p>Only people in your family who have signed in with your family code. We use Firebase's authentication rules to enforce this technically — no one else, including search engines or other HomeBase users, can see your information.</p>
     <h2>What we don't do</h2>
@@ -420,11 +448,9 @@ section{padding:80px 0}
       <li>We don't sell your data</li>
       <li>We don't share it with advertisers</li>
       <li>We don't track you across other websites</li>
-      <li>We don't read your emails or messages</li>
+      <li>We don't read your emails or messages (only the ones you choose to forward)</li>
       <li>We don't use your data to train AI</li>
     </ul>
-    <h2>OCR (smart-scan) processing</h2>
-    <p>When you scan an assessment sheet or birthday invite, the photo is processed entirely on your device using a free open-source library (Tesseract.js). The image never leaves your phone or browser. Only the extracted text is saved.</p>
     <h2>Deleting your data</h2>
     <ul>
       <li>Remove a child or adult: tap them in Family → Edit → Delete</li>
@@ -444,7 +470,7 @@ section{padding:80px 0}
     <div class="footer-grid">
       <div>
         <div class="footer-brand">
-          <img src="data:image/png;base64,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" alt="HomeBase"/>
+          <div class="logo-mark">🏠</div>
           <span>HomeBase</span>
         </div>
         <p class="footer-tagline">Family logistics, made simple. Built so your family stays in sync — without the chaos of group chats and sticky notes.</p>
@@ -481,13 +507,11 @@ function showHome(){
   setTimeout(function(){window.scrollTo(0,0);},0);
 }
 function navTo(anchor){
-  // If on a legal page, swap to home first WITHOUT scrolling top, then jump to anchor
   const legalVisible=!document.getElementById('privacy-content').classList.contains('hidden');
   if(legalVisible){
     document.getElementById('home-content').classList.remove('hidden');
     document.getElementById('privacy-content').classList.add('hidden');
   }
-  // Let anchor work naturally
   setTimeout(function(){
     const el=document.getElementById(anchor);
     if(el)el.scrollIntoView({behavior:'smooth',block:'start'});
@@ -500,28 +524,6 @@ function showLegal(which){
   window.scrollTo(0,0);
 }
 if(location.hash==='#privacy')showLegal('privacy');
-</script>
-
-<div id="app-loader" style="display:none;position:fixed;inset:0;background:#1C3A6B;z-index:9999;align-items:center;justify-content:center;flex-direction:column;gap:18px">
-  <img src="data:image/png;base64,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" style="width:88px;height:88px;border-radius:20px;box-shadow:0 12px 40px rgba(0,0,0,0.3)"/>
-  <div style="width:36px;height:36px;border:3px solid rgba(255,255,255,0.2);border-top-color:#fff;border-radius:50%;animation:hbspin 0.8s linear infinite"></div>
-  <div style="color:rgba(255,255,255,0.85);font-size:14px;font-weight:500">Opening HomeBase...</div>
-</div>
-<style>
-@keyframes hbspin{to{transform:rotate(360deg)}}
-#app-loader.show{display:flex!important}
-</style>
-<script>
-// Intercept clicks on links that go to the app, show loader
-document.addEventListener('click',function(e){
-  var a=e.target.closest('a');
-  if(!a)return;
-  var href=a.getAttribute('href')||'';
-  if(href.indexOf('home-base-orcin.vercel.app')!==-1||href.indexOf('app.ourhomebase')!==-1){
-    document.getElementById('app-loader').classList.add('show');
-    // Don't preventDefault — let nav happen normally
-  }
-});
 </script>
 
 </body>
